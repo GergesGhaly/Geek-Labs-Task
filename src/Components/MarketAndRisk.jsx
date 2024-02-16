@@ -3,12 +3,12 @@ import { TECollapse } from "tw-elements-react";
 import arrow from "../images/arrow.svg";
 
 const MarketAndRisk = () => {
-  // const [activeRisk, setactiveRisk] = useState(false);
-  // const [activeMarket, setactiveMarket] = useState(false);
-  // useEffect(() => {
-  //   setactiveMarket(true);
-  //   setactiveRisk(true);
-  // }, []);
+  const [activeRisk, setactiveRisk] = useState(false);
+  const [activeMarket, setactiveMarket] = useState(false);
+  useEffect(() => {
+    setactiveMarket(true);
+    setactiveRisk(true);
+  }, []);
 
   return (
     <div className="grid grid-cols-2">
@@ -16,16 +16,16 @@ const MarketAndRisk = () => {
         <h2 className="mb-0" id="headingOne">
           <button
             className={`${
-              true && `text-primary !shadow-none `
+              activeMarket && `text-primary !shadow-none `
             } group relative flex items-center justify-center gap-4  px-5 py-2 text-right  text-base text-white transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none`}
             type="button"
-            // onClick={() => setactiveMarket(!activeMarket)}
+            onClick={() => setactiveMarket(!activeMarket)}
             aria-expanded="true"
             aria-controls="collapseOne"
           >
             <span
               className={`${
-                true
+                activeMarket
                   ? `rotate-[-180deg] -mr-1`
                   : `rotate-0 fill-[#212529]  dark:fill-white`
               } flex items-center  justify-center w-[7.36px h-[5.94px] ml-auto  shrink-0 fill-[#336dec] transition-transform duration-200 ease-in-out motion-reduce:transition-none `}
@@ -38,7 +38,7 @@ const MarketAndRisk = () => {
           </button>
         </h2>
         <TECollapse
-          show={true}
+          show={activeMarket}
           className="!mt-0 !rounded-b-none !shadow-none"
         >
           <div className="pl-5  ">
@@ -92,16 +92,16 @@ const MarketAndRisk = () => {
         <h2 className="mb-0" id="headingOne">
           <button
             className={`${
-              true && `text-primary !shadow-none `
+              activeRisk && `text-primary !shadow-none `
             } group relative flex items-center justify-center gap-4  px-5 py-2 text-right  text-base text-white transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none`}
             type="button"
-            // onClick={() => setactiveRisk(!activeRisk)}
+            onClick={() => setactiveRisk(!activeRisk)}
             aria-expanded="true"
             aria-controls="collapseOne"
           >
             <span
               className={`${
-                true
+                activeRisk
                   ? `rotate-[-180deg] -mr-1`
                   : `rotate-0 fill-[#212529]  dark:fill-white`
               } flex items-center  justify-center w-[7.36px h-[5.94px] ml-auto  shrink-0 fill-[#336dec] transition-transform duration-200 ease-in-out motion-reduce:transition-none `}
@@ -114,7 +114,7 @@ const MarketAndRisk = () => {
           </button>
         </h2>
         <TECollapse
-          show={true}
+          show={activeRisk}
           className="!mt-0 !rounded-b-none !shadow-none"
         >
           <div className="pl-5  ">
