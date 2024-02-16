@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a848d3d2.css",
+    "main.js": "/static/js/main.2a1b930a.js",
+    "static/js/128.c43cdb3e.chunk.js": "/static/js/128.c43cdb3e.chunk.js",
+    "static/js/100.bc964293.chunk.js": "/static/js/100.bc964293.chunk.js",
+    "static/media/street suite logo-04 1.svg": "/static/media/street suite logo-04 1.a48a2395e9ff723840aae887e5f3da2b.svg",
+    "static/media/gear.svg": "/static/media/gear.94e2371418370cac39f3de0f0bfe0e5f.svg",
+    "static/media/resaycle.svg": "/static/media/resaycle.939556250c41e984ee714192e2fe3a1c.svg",
+    "static/media/Utilities.svg": "/static/media/Utilities.ee43b493ba325e4430adb17aa6d65023.svg",
+    "static/media/home.svg": "/static/media/home.c30356cae3bb01601178761f45162046.svg",
+    "static/media/it.svg": "/static/media/it.4765679bce1939c0c549779de404a6db.svg",
+    "static/media/Financials.svg": "/static/media/Financials.4e2df3f4b716b2ce78b21694b77af05b.svg",
+    "static/media/anrgy.svg": "/static/media/anrgy.7a26c5f6e70d51f33eed0169e739cd3c.svg",
+    "static/media/Group 103.svg": "/static/media/Group 103.548fb5041adcb1091dd6d298f3fdf173.svg",
+    "static/media/dollarSign.svg": "/static/media/dollarSign.581f65f10d6edb0c21871667227b8b19.svg",
+    "static/media/dollar.svg": "/static/media/dollar.6427ffe18f66d3648217533a59295637.svg",
+    "static/media/meesag.svg": "/static/media/meesag.d06532d25939543ae643553ec7bb044f.svg",
+    "static/media/analysisIcon.svg": "/static/media/analysisIcon.a9ed7808e3efa957114c3417d0cd85f8.svg",
+    "static/media/cart.svg": "/static/media/cart.b9c3a62be64253dd620c77f6a0737881.svg",
+    "static/media/Industrials.svg": "/static/media/Industrials.15c1653b41ae151b93d133b818a4344c.svg",
+    "static/media/peaper.svg": "/static/media/peaper.da70633b4336d3dbb17b7193fdfc0a1d.svg",
+    "static/media/heart.svg": "/static/media/heart.b589d1e4438c9cb439d04f7e9a5cdf3c.svg",
+    "static/media/hat.svg": "/static/media/hat.2632652e786fcd0f55324c5b335369aa.svg",
+    "static/media/file.svg": "/static/media/file.0c5226db25cd675f6894f5ec526e14be.svg",
+    "static/media/Group.svg": "/static/media/Group.0b32d3c9ef7696912afb2b280c65cf5b.svg",
+    "static/media/bell.svg": "/static/media/bell.1623f11a681c9ec437bccaae7bf6b129.svg",
+    "index.html": "/index.html",
+    "static/media/search (1).svg": "/static/media/search (1).33d9552e29a242e342fe24388dbfc088.svg",
+    "static/media/Search.svg": "/static/media/Search.d2104b789cf369709ed5e3fb54b4ca81.svg",
+    "static/media/analysis.svg": "/static/media/analysis.53c8cf226585179e797092cb5e9777b5.svg",
+    "static/media/close.svg": "/static/media/close.3317e88c3f7eb0d27f40101d0a21e148.svg",
+    "static/media/arrow.svg": "/static/media/arrow.944d8c2b6684d4cfc0f3619fcbfc99e1.svg",
+    "main.a848d3d2.css.map": "/static/css/main.a848d3d2.css.map",
+    "main.2a1b930a.js.map": "/static/js/main.2a1b930a.js.map",
+    "128.c43cdb3e.chunk.js.map": "/static/js/128.c43cdb3e.chunk.js.map",
+    "100.bc964293.chunk.js.map": "/static/js/100.bc964293.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a848d3d2.css",
+    "static/js/main.2a1b930a.js"
+  ]
+}
