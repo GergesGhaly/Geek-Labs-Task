@@ -1,10 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { TECollapse } from "tw-elements-react";
 import arrow from "../images/arrow.svg";
 
 const MarketAndRisk = () => {
-  const [activeRisk, setactiveRisk] = useState(true);
-  const [activeMarket, setactiveMarket] = useState(true);
+  const [activeRisk, setactiveRisk] = useState(false);
+  const [activeMarket, setactiveMarket] = useState(false);
+  useEffect(() => {
+    setactiveMarket(true);
+    setactiveRisk(true);
+  }, []);
 
   return (
     <div className="grid grid-cols-2">

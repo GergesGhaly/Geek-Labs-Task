@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { TECollapse } from "tw-elements-react";
 import arrow from "../images/arrow.svg";
 
 const Industry = ({ industry }) => {
-  const [activeIndustry, setActiveIndustry] = useState(true);
+  const [activeIndustry, setActiveIndustry] = useState(false);
+  useEffect(() => {
+    setActiveIndustry(true);
+  },[]);
   return (
     <div className="mt-3 bg-[#202020]" id="accordionExample">
       <h2 className="mb-0" id="headingOne">
